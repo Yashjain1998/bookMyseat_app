@@ -236,3 +236,28 @@ button:hover {
   background-color: #007bff;
   border-color: #007bff;
 }
+#n-div{
+  text-align: center;
+}
+
+#notification{
+  display: flex;
+  flex-wrap: wrap;
+  width: 40%;
+  margin: 1.5rem auto;
+  background-color: #f0f4f8;
+  position: relative;
+  border-radius: 5px;
+  
+}
+#notification>p{
+  width: 100%;
+}
+#notification>button{
+  position: absolute;
+  color: #fff;
+  background-color: #007bff;
+  border-color: #007bff;
+  padding: 1rem 2rem;
+  
+}

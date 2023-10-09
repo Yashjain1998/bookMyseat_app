@@ -15,6 +15,7 @@ function App() {
   useEffect(() => {
     dispatch(setData(jsonData.seating_layout));
   }, [dispatch]);
+
  if(confirm){
     return(
       <ConfirmationModal isopen={setconfirm} onConfirm={setproceed}/>
