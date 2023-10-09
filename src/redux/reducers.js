@@ -2,8 +2,8 @@
 import { SET_DATA } from "./action";
 
 const initialState = {
-  Qty: 0,
-  ticket: "",
+  Qty: "Qty",
+  ticket: "Ticket Type",
   seating_layout: [],
 };
 

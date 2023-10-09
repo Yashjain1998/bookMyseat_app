@@ -867,24 +867,9 @@
       "row": 8,
       "label": "H",
       "seats": [
-        {
-          "position": 1,
-          "status": "unavailable",
-          "isSelected": false,
-          "type": "Standard"
-        },
-        {
-          "position": 2,
-          "status": "unavailable",
-          "isSelected": false,
-          "type": "Standard"
-        },
-        {
-          "position": 3,
-          "status": "unavailable",
-          "isSelected": false,
-          "type": "Standard"
-        },
+        { "position": 1, "status": "empty" },
+        { "position": 2, "status": "empty" },
+        { "position": 3, "status": "empty" },
         { "position": 4, "status": "empty" },
         {
           "position": 5,
@@ -1013,24 +998,9 @@
       "row": 9,
       "label": "G",
       "seats": [
-        {
-          "position": 1,
-          "status": "unavailable",
-          "isSelected": false,
-          "type": "Standard"
-        },
-        {
-          "position": 2,
-          "status": "unavailable",
-          "isSelected": false,
-          "type": "Standard"
-        },
-        {
-          "position": 3,
-          "status": "unavailable",
-          "isSelected": false,
-          "type": "Standard"
-        },
+        { "position": 1, "status": "empty" },
+        { "position": 2, "status": "empty" },
+        { "position": 3, "status": "empty" },
         { "position": 4, "status": "empty" },
         {
           "position": 5,

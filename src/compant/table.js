@@ -1,7 +1,7 @@
 import { useSelector, useDispatch } from "react-redux";
 import { selectseat, removeseat, submit } from "../redux/action";
 import EventSeatIcon from "@mui/icons-material/EventSeat";
-function Table() {
+function Table({proceed,setproceed,setconfirm}) {
   const dispatch = useDispatch();
   const seatdata = useSelector((state) => state.seating_layout);
   const ticket = useSelector((state) => state.ticket);
@@ -20,6 +20,11 @@ function Table() {
       dispatch(submit(seatarr, seatdata));
     }
   };
+  if(proceed){
+    handersubmit();
+    setproceed(false);
+
+  }
   return (
     <table>
       <tbody>
@@ -70,7 +75,7 @@ function Table() {
         })}
       </tbody>
 
-      <button onClick={() => handersubmit()}>PROCEED</button>
+      <button onClick={() => setconfirm(true)}>PROCEED</button>
     </table>
   );
 }
